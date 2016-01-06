@@ -1,0 +1,7 @@
+*.txt
+*.obj
+**/classes/*
+**/.metadata/*
+**/.recommenders/*
+**/.settings/*
+**/bin/*
