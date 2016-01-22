@@ -9,7 +9,6 @@ import java.util.Map;
 import org.junit.Test;
 
 import decorators.arithmetic.ArithmeticScenarioComponentFactory;
-import infra.BaseUnitTest;
 
 /**
  * The test client for the execution of multiple actions (ConcreteDecorators)
