@@ -1,3 +1,4 @@
+.DS_Store
 *.txt
 *.obj
 **/classes/*
@@ -5,4 +6,4 @@
 **/.recommenders/*
 **/.settings/*
 **/bin/*
-.DS_Store
+/RemoteSystemsTempFiles/
