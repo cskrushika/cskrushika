@@ -1,16 +1,16 @@
-https://www.hackerearth.com/notes/dynamic-programming-i-1/
-https://www.hackerearth.com/problem/algorithm/random-generator/
-https://www.hackerearth.com/problem/algorithm/next-lucky-number/
-https://www.hackerearth.com/problem/algorithm/sum-of-products/
-https://www.hackerearth.com/problem/algorithm/promotion-1/
-https://www.hackerearth.com/problem/algorithm/sonya-puts-the-blocks-in-the-box-icpc-4/
-https://www.hackerearth.com/problem/algorithm/aabbaac/
-https://www.hackerearth.com/problem/algorithm/roy-and-tiles-1/
-https://www.hackerearth.com/problem/algorithm/irctc/
-https://www.hackerearth.com/problem/approximate/swap-and-sort/
-https://www.hackerearth.com/problem/algorithm/longest-increasing-path-9/
-https://www.hackerearth.com/problem/algorithm/shil-and-crazy-operation/
-https://www.hackerearth.com/problem/algorithm/mehta-and-the-boring-class/
-https://www.hackerearth.com/problem/algorithm/the-enlightened-ones/
-https://www.hackerearth.com/problem/algorithm/longest-increasing-path-9/
-https://www.hackerearth.com/problem/algorithm/c-table-splitting-1/
+[link] https://www.hackerearth.com/notes/dynamic-programming-i-1/
+[link] https://www.hackerearth.com/problem/algorithm/random-generator/
+[link] https://www.hackerearth.com/problem/algorithm/next-lucky-number/
+[link] https://www.hackerearth.com/problem/algorithm/sum-of-products/
+[link] https://www.hackerearth.com/problem/algorithm/promotion-1/
+[link] https://www.hackerearth.com/problem/algorithm/sonya-puts-the-blocks-in-the-box-icpc-4/
+[link] https://www.hackerearth.com/problem/algorithm/aabbaac/
+[link] https://www.hackerearth.com/problem/algorithm/roy-and-tiles-1/
+[link] https://www.hackerearth.com/problem/algorithm/irctc/
+[link] https://www.hackerearth.com/problem/approximate/swap-and-sort/
+[link] https://www.hackerearth.com/problem/algorithm/longest-increasing-path-9/
+[link] https://www.hackerearth.com/problem/algorithm/shil-and-crazy-operation/
+[link] https://www.hackerearth.com/problem/algorithm/mehta-and-the-boring-class/
+[link] https://www.hackerearth.com/problem/algorithm/the-enlightened-ones/
+[link] https://www.hackerearth.com/problem/algorithm/longest-increasing-path-9/
+[link] https://www.hackerearth.com/problem/algorithm/c-table-splitting-1/
