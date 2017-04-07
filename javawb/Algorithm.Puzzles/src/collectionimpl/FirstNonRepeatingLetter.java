@@ -1,19 +1,8 @@
 package collectionimpl;
 
 import java.util.HashMap;
-import java.util.Scanner;
 
 public class FirstNonRepeatingLetter {
-
-	public static void main(String[] args) {
-		System.out.println("Enter the word");
-		Scanner sc = new Scanner(System.in);
-		String s = sc.nextLine();
-		char c = firstNonRepeatedChar(s);
-		System.out.println("First non-repeating char: " + c);
-		sc.close();
-	}
-
 	private static Character firstNonRepeatedChar(String s) {
 		HashMap<Character, Integer> charHashTable = new HashMap<Character, Integer>();
 		int length = s.length();
@@ -32,5 +21,4 @@ public class FirstNonRepeatingLetter {
 		}
 		return null;
 	}
-
 }
