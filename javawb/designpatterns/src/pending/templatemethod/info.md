@@ -1,1 +1,0 @@
-https://dzone.com/articles/design-patterns-template-method
