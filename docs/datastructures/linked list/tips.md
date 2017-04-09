@@ -14,8 +14,16 @@
 
 #### Usable strategies for LL Problems
 * **Fast and slow pointers** 
-`while (fast_ptr != NULL && fast_ptr->next != NULL)`
-  `      {`
-        `    fast_ptr = fast_ptr->next->next;`
-          `  slow_ptr = slow_ptr->next;`
-   `     }`
+<pre><code>
+while (fastptr != NULL && fastptr->next != NULL)
+        {
+            fastptr = fastptr->next->next;
+            slowptr = slowptr->next;`
+        }
+</code></pre>
+
+* **Using additional data structures**
+Use additional data structures to keep state of the problem being solved. Some of them are:
+  * HashMap or Hash table. It contains key-value pairs
+  * Use **Stacks** or **Queues** to solve certain problems
+  
