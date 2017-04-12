@@ -31,3 +31,5 @@ The rain---not the reign---in
 Spain.
 
 A [link](http://example.com).
+
+Automatic links are wrapped in angular braces: <https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet>
