@@ -1,0 +1,1 @@
+[What happens when we turn on computer?](http://www.geeksforgeeks.org/what-happens-when-we-turn-on-computer)

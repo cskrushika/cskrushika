@@ -11,6 +11,11 @@ class ListNode<E> {
 		this.prev = prev;
 	}
 
+	public ListNode(E n) {
+		this.data = n;
+		this.next = this.prev = null;
+	}
+
 	public E getData() {
 		return data;
 	}

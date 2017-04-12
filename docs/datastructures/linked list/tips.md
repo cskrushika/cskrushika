@@ -21,9 +21,12 @@ while (fastptr != NULL && fastptr->next != NULL)
             slowptr = slowptr->next;`
         }
 </code></pre>
+Ex: 
+  * If there is a loop in the LL
 
-* **Using additional data structures**
+* **Using additional data structures ( Like Hashing)**
 Use additional data structures to keep state of the problem being solved. Some of them are:
-  * HashMap or Hash table. It contains key-value pairs
-  * Use **Stacks** or **Queues** to solve certain problems
+     * HashMap or Hash table. It contains key-value pairs
+     * Use **Stacks** or **Queues** to solve certain problems
+       * Breadth first traversal, level order traversal, sum of each level etc 
   
