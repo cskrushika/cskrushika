@@ -6,18 +6,18 @@ package decorator.coffeemaker;
  */
 public class CoffeeWithCream extends AbstractCoffeeDecorator {
 
-    public CoffeeWithCream(ICoffee c) {
-	super(c);
-    }
+	public CoffeeWithCream(ICoffee c) {
+		super(c);
+	}
 
-    @Override
-    public double getCost() {
-	return super.getCost() + 0.6;
-    }
-    
-    @Override
-    public String getIngredients(){
-	return super.getIngredients() + " and Cream";
-    }
+	@Override
+	public double getCost() {
+		return super.getCost() + 0.6;
+	}
+
+	@Override
+	public String getIngredients() {
+		return super.getIngredients() + " and Cream";
+	}
 
 }

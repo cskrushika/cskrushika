@@ -6,14 +6,14 @@ package decorator.coffeemaker;
  */
 public class SimpleCoffee implements ICoffee {
 
-    @Override
-    public double getCost() {
-	return 1;
-    }
+	@Override
+	public double getCost() {
+		return 1;
+	}
 
-    @Override
-    public String getIngredients() {
-	return "Coffee";
-    }
+	@Override
+	public String getIngredients() {
+		return "Coffee";
+	}
 
 }

@@ -6,8 +6,8 @@ package decorator.coffeemaker;
  */
 public interface ICoffee {
 
-    public double getCost();
+	public double getCost();
 
-    public String getIngredients();
+	public String getIngredients();
 
 }

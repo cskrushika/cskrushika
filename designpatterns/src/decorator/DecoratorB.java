@@ -7,19 +7,19 @@ package decorator;
  */
 public class DecoratorB extends Decorator {
 
-    public DecoratorB(IComponent component) {
-	super(component);
-    }
+	public DecoratorB(IComponent component) {
+		super(component);
+	}
 
-    @Override
-    public void processAction() {
-	component.processAction();
-	System.out.println("B's decoration");
-	doBSpecific();
-    }
+	@Override
+	public void processAction() {
+		component.processAction();
+		System.out.println("B's decoration");
+		doBSpecific();
+	}
 
-    public void doBSpecific() {
-	System.out.println("B-specific actions");
-    }
+	public void doBSpecific() {
+		System.out.println("B-specific actions");
+	}
 
 }

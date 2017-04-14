@@ -10,23 +10,23 @@ package decorator.coffeemaker;
  */
 public abstract class AbstractCoffeeDecorator implements ICoffee {
 
-    /**
-     * The has-a instance of {@link ICoffee}
-     */
-    protected ICoffee decoratedCoffee;
+	/**
+	 * The has-a instance of {@link ICoffee}
+	 */
+	protected ICoffee decoratedCoffee;
 
-    public AbstractCoffeeDecorator(ICoffee coffee) {
-	this.decoratedCoffee = coffee;
-    }
+	public AbstractCoffeeDecorator(ICoffee coffee) {
+		this.decoratedCoffee = coffee;
+	}
 
-    @Override
-    public double getCost() {
-	return this.decoratedCoffee.getCost();
-    }
+	@Override
+	public double getCost() {
+		return this.decoratedCoffee.getCost();
+	}
 
-    @Override
-    public String getIngredients() {
-	return this.decoratedCoffee.getIngredients();
-    }
+	@Override
+	public String getIngredients() {
+		return this.decoratedCoffee.getIngredients();
+	}
 
 }

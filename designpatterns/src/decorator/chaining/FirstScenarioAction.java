@@ -6,9 +6,9 @@ package decorator.chaining;
  */
 public class FirstScenarioAction implements IScenarioActionComponent {
 
-    @Override
-    public void processScenarioActions() {
-	System.out.println("Performing First Scenario Action");
-    }
+	@Override
+	public void processScenarioActions() {
+		System.out.println("Performing First Scenario Action");
+	}
 
 }

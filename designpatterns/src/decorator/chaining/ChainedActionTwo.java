@@ -6,13 +6,13 @@ package decorator.chaining;
  */
 public class ChainedActionTwo extends AbstractScenarioChainedAction {
 
-    public ChainedActionTwo(IScenarioActionComponent c) {
-	super(c);
-    }
+	public ChainedActionTwo(IScenarioActionComponent c) {
+		super(c);
+	}
 
-    @Override
-    public void processOwnAction() {
-	System.out.println("Performing Second Scenario action");
-	
-    }
+	@Override
+	public void processOwnAction() {
+		System.out.println("Performing Second Scenario action");
+
+	}
 }

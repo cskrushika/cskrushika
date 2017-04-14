@@ -10,19 +10,19 @@ package decorator.chaining;
  */
 public abstract class AbstractScenarioChainedAction implements IScenarioChainedActionComponent {
 
-    /**
-     * The has-a instance of {@link IScenarioActionComponent}
-     */
-    protected IScenarioActionComponent actionComponent;
+	/**
+	 * The has-a instance of {@link IScenarioActionComponent}
+	 */
+	protected IScenarioActionComponent actionComponent;
 
-    public AbstractScenarioChainedAction(IScenarioActionComponent actionComponent) {
-	super();
-	this.actionComponent = actionComponent;
-    }
+	public AbstractScenarioChainedAction(IScenarioActionComponent actionComponent) {
+		super();
+		this.actionComponent = actionComponent;
+	}
 
-    @Override
-    public void processScenarioActions() {
-	this.actionComponent.processScenarioActions();
-	this.processOwnAction();
-    }
+	@Override
+	public void processScenarioActions() {
+		this.actionComponent.processScenarioActions();
+		this.processOwnAction();
+	}
 }

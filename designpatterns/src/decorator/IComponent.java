@@ -6,6 +6,6 @@ package decorator;
  */
 public interface IComponent {
 
-    public void processAction();
+	public void processAction();
 
 }

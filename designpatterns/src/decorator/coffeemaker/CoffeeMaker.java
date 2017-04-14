@@ -6,25 +6,25 @@ package decorator.coffeemaker;
  */
 public class CoffeeMaker {
 
-    public static void main(String[] args) {
-	ICoffee coffee = new SimpleCoffee();
-	printInfo(coffee);
-	
-	coffee = new CoffeeWithSprinkles(new SimpleCoffee());
-	printInfo(coffee);
+	public static void main(String[] args) {
+		ICoffee coffee = new SimpleCoffee();
+		printInfo(coffee);
 
-	coffee = new CoffeeWithMilk(new SimpleCoffee());
-	printInfo(coffee);
+		coffee = new CoffeeWithSprinkles(new SimpleCoffee());
+		printInfo(coffee);
 
-	coffee = new CoffeeWithMilk(new CoffeeWithSprinkles(new SimpleCoffee()));
-	printInfo(coffee);
-	
-	coffee = new CoffeeWithCream(new CoffeeWithMilk(new CoffeeWithSprinkles(new SimpleCoffee())));
-	printInfo(coffee);
-    }
+		coffee = new CoffeeWithMilk(new SimpleCoffee());
+		printInfo(coffee);
 
-    private static void printInfo(ICoffee coffee) {
-	System.out.println("Ingredients: " + coffee.getIngredients() + ". Cost: " + coffee.getCost());
-    }
+		coffee = new CoffeeWithMilk(new CoffeeWithSprinkles(new SimpleCoffee()));
+		printInfo(coffee);
+
+		coffee = new CoffeeWithCream(new CoffeeWithMilk(new CoffeeWithSprinkles(new SimpleCoffee())));
+		printInfo(coffee);
+	}
+
+	private static void printInfo(ICoffee coffee) {
+		System.out.println("Ingredients: " + coffee.getIngredients() + ". Cost: " + coffee.getCost());
+	}
 
 }

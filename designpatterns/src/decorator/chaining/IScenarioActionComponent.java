@@ -6,6 +6,6 @@ package decorator.chaining;
  */
 public interface IScenarioActionComponent {
 
-    public void processScenarioActions();
+	public void processScenarioActions();
 
 }

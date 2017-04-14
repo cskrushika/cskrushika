@@ -8,15 +8,15 @@ package decorator;
  */
 public class Decorator implements IComponent {
 
-    protected IComponent component;
+	protected IComponent component;
 
-    public Decorator(IComponent component) {
-	this.component = component;
-    }
+	public Decorator(IComponent component) {
+		this.component = component;
+	}
 
-    @Override
-    public void processAction() {
-	this.component.processAction();
-    }
+	@Override
+	public void processAction() {
+		this.component.processAction();
+	}
 
 }

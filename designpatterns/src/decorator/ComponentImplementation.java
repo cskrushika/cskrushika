@@ -6,9 +6,9 @@ package decorator;
  */
 public class ComponentImplementation implements IComponent {
 
-    @Override
-    public void processAction() {
-	System.out.println("This is the basic implementation");
-    }
+	@Override
+	public void processAction() {
+		System.out.println("This is the basic implementation");
+	}
 
 }

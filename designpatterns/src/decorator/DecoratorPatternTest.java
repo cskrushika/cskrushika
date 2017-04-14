@@ -20,13 +20,13 @@ package decorator;
  */
 public class DecoratorPatternTest {
 
-    public static void main(String[] args) {
-	System.out.println("Implementation 1:");
-	IComponent decoratorComponent = new DecoratorA(new ComponentImplementation());
-	decoratorComponent.processAction();
+	public static void main(String[] args) {
+		System.out.println("Implementation 1:");
+		IComponent decoratorComponent = new DecoratorA(new ComponentImplementation());
+		decoratorComponent.processAction();
 
-	System.out.println("\nImplementation 2:");
-	IComponent decoratorComponent1 = new DecoratorA(new DecoratorB(new ComponentImplementation()));
-	decoratorComponent1.processAction();
-    }
+		System.out.println("\nImplementation 2:");
+		IComponent decoratorComponent1 = new DecoratorA(new DecoratorB(new ComponentImplementation()));
+		decoratorComponent1.processAction();
+	}
 }
